@@ -1,0 +1,112 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: #121212;
+}
+
+
+div#navbar-main{
+	background-color: #020202;
+	position: static;
+	width: 100vw;
+	height: 20vh;
+	top: 0;
+	left: 0;
+
+}
+
+div.wrapper{
+
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	position: relative;
+}
+
+div.wrapper-calculator{
+	background-color: blue;
+	text-align: center;
+	position: relative;
+
+}
+
+button.calculator-num-btn{
+	float: left;
+
+
+}
+
+
+div.wrapper-calculator button.calculator-num-btn:nth-child(4),
+div.wrapper-calculator button.calculator-num-btn:nth-child(7),
+div.wrapper-calculator button.calculator-num-btn:nth-child(10){
+	clear: left;
+}
+
+
+button.calculator-num-btn{
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.label-wrapper{
+	display: inline-block;
+	position: absolute;
+	width: 80%;
+	top: 45%;
+	left: 10%;
+}
+
+button{
+	background-color: orangered;
+	border-width: 1px;
+	padding: 13px 40px;
+	color: whitesmoke;
+	border-radius: 5px;
+
+}
+
+button:hover{
+	background-color: #B83200;
+	cursor: grab;
+}
+
+input{
+	border-radius: 5px;
+	padding: 10px 200px;
+	font-size: 1em;
+	font-style: bold;
+}
+label{
+	width: inherit;
+	color: whitesmoke;
+	display: inline-block;
+	position: relative;
+}
+
+p{
+	color: whitesmoke;
+}
+
+#calculator-input-icon{
+	max-height: 40px;
+	max-width: 30px;
+	filter: invert(10%);
+	top: 4px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
