@@ -12,12 +12,9 @@ window.onload = function() {
             }
       });
 
-
+      (document).getElementById("calculator-submit-btn").onclick = function(){
+            document.getElementById("result-area").value = "";
+            document.getElementById("result-area").value = eval(inputId.value);
+      }
 }  
             
-      
-     // ["9","8","7","6","5","4","3","2","1","0"].forEach(element => onclickId(element));
-
-     //(document).getElementById("calculator-submit-btn").onclick = function(){
-          //  alert(eval(inputId.value));   
-    
